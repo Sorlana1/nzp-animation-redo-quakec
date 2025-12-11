@@ -3572,13 +3572,13 @@ float(float wep, float anim_style, float dualwep, float curweaponframe)	PlayWeap
 			return false;
 		case W_MP40:
 		case W_AFTERBURNER:
-			if (curweaponframe == 7) {
+			if (curweaponframe == 25) {
 				Sound_PlaySound(self, "sounds/weapons/mp40/magout.wav", SOUND_TYPE_WEAPON_OTHER, SOUND_PRIORITY_PLAYALWAYS);
 				return true;
-			} else if (curweaponframe == 17) {
+			} else if (curweaponframe == 6) {
 				Sound_PlaySound(self, "sounds/weapons/mp40/magin.wav", SOUND_TYPE_WEAPON_OTHER, SOUND_PRIORITY_PLAYALWAYS);
 				return true;
-			} else if (curweaponframe == 25) {
+			} else if (curweaponframe == 11) {
 				Sound_PlaySound(self, "sounds/weapons/mp40/boltback.wav", SOUND_TYPE_WEAPON_OTHER, SOUND_PRIORITY_PLAYALWAYS);
 				return true;
 			}
